@@ -6,7 +6,7 @@ This repository contains my progress through the **freeCodeCamp Responsive Web D
 
 ## 🚀 Projects Included
 
-* **[Cafe Menu](https://g4-codeguy.githu.io/fcc-web-design/02-cafe-menu/)**- Learning CSS basics, selectors, and spacing.
+* **[Cafe Menu](https://g4-codeguy.github.io/fcc-web-design/02-cafe-menu/)**- Learning CSS basics, selectors, and spacing.
 * **[Tribute Page](./01-tribute-page/)** - Practice with basic HTML structure and images.
 * **[Registration Form](./03-registration-form/)** - (In Progress) Working with inputs and labels.
 
