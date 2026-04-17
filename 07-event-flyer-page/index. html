@@ -16,8 +16,7 @@
     <p class="time-date"><strong>When:</strong> Probably never <strong>Where:</strong>In your imagination</p>
   </header>
   <hr>
-  <main>
-    <div ="flex-container>"
+  <main class="tab-box">
     <section class="event-tab">
       <h2>Featured Events</h2>
       <ul>
@@ -39,12 +38,11 @@
         <li class="event-item"><strong>Buntin'</strong></li>
       </ul>
     </section>
-    </div>
   </main>
   <hr>
   <footer>
     <p class="footer-dec">&copy;2026 Annual Buntin' Championships</p>
-  </footer>             
+  </footer>            
 </body>
 
 </html>
