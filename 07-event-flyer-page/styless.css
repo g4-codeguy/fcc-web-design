@@ -1,0 +1,41 @@
+body {
+  min-height: calc(100vh - 100px);
+  width: 90vw;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: gray;
+}
+
+hr {
+  width: 80%;
+  background-color: green;
+}
+
+.tab-box {
+  display: flex;
+}
+
+.event-tab {
+  max-height: 300px;
+  min-height: 300px;
+  width: 24%;
+  height: 40%;
+  margin: 40px;
+  background-color: brown;
+}
+
+.event-tab-2 {
+  min-height: 300px;
+  width: 24%;
+  height: 40%;
+  margin: 40px;
+  background-color: navy;
+}
+
+.event-tab-3 {
+  min-height: 300px;
+  width: 24%;
+  height: 40%;
+  margin: 40px;
+  background-color: white;
+}
