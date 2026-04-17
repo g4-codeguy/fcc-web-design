@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg" alt="Some colorful bunting hanging in sections">
+    <h1>Annual Buntin' Championships</h1>
+    <p><em>Get the buntin'</em> oot! It's time for the 3rd rendition of our annual Buntin' championships.</p><p><strong>When:</strong> Probably never <strong>Where:</strong>In your imagination</p>
+  </header>
+  <hr>
+  <main>
+    <section>
+      <h2>Featured Events</h2>
+      <ul>
+        <li><Strong>Longest Buntin'</strong><p>(Event record: 600 miles)</p></li>
+        <li><strong>Buntin' Hunt</strong><p>Rival teams try to locate the beggining of you Buntin' trail, first to locate the rivals buntin wins</p></li>
+        <li><strong>Best Buntin'</strong><p>Everyone will be hanging their Buntin' on our prestigious best overall Buntin' category</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Entertainment</h2>
+      <ul>
+        <li><strong>Buntin' Builder</strong><p>Make your own Buntin' under the guidance of former world Buntin' champions</p></li>
+        <li><strong>Buntin' Bunjee</strong><p>Ever wondered if you can bunjee with Buntin'? Let's try! Will it work.. who knows?</p></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Food</h2>
+      <ul>
+        <li><strong>Buntin'</strong></li>
+      </ul>
+    </section>
+  </main>
+  <hr>
+  <footer>
+    <p>&copy;2026 Annual Butnin' Championships</p>
+  </footer>             
+</body>
+
+</html>
