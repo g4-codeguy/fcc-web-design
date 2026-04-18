@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <img class="pic" src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg" alt="Some colorful bunting hanging in sections">
     <h1>Annual Buntin' Championships</h1>
     <p class="p-head"><em>Get the buntin'</em> oot! It's time for the 3rd rendition of our annual Buntin' championships.</p>
@@ -28,20 +28,21 @@
     <section class="event-tab-2"> 
       <h2>Entertainment</h2>
       <ul>
-        <li><strong>Buntin' Builder</strong><p class="event-item">Make your own Buntin' under the guidance of former world Buntin' champions</p></li>
-        <li><strong>Buntin' Bunjee</strong><p class="event-item">Ever wondered if you can bunjee with Buntin'? Let's try! Will it work.. who knows?</p></li>
+        <li><strong>Buntin' Builder</strong><p class="event-item-2">Make your own Buntin' under the guidance of former world Buntin' champions</p></li>
+        <li><strong>Buntin' Bunjee</strong><p class="event-item-2" id="event-item-2">Ever wondered if you can bunjee with Buntin'? Let's try! Will it work.. who knows?</p></li>
       </ul>
     </section>
     <section class="event-tab-3">
       <h2>Food</h2>
       <ul>
-        <li class="event-item"><strong>Buntin'</strong></li>
+        <li class="event-item-3"><strong>Buntin'</strong></li>
       </ul>
+      <img class="pic-2" src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg" alt="more bunting">
     </section>
   </main>
   <hr>
-  <footer>
-    <p class="footer-dec">&copy;2026 Annual Buntin' Championships</p>
+  <footer class="foot-dec">
+    <p>&copy;2026 Annual Buntin' Championships</p>
   </footer>            
 </body>
 
