@@ -6,36 +6,87 @@ body {
   background-color: gray;
 }
 
+h2 {
+  display: block;
+  margin: 10px;
+  padding: 40px;
+  font-size: 32px;
+}
+
 hr {
-  width: 80%;
+  width: 90%;
   background-color: green;
 }
 
 .tab-box {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .event-tab {
-  max-height: 300px;
-  min-height: 300px;
-  width: 24%;
-  height: 40%;
-  margin: 40px;
-  background-color: brown;
+  min-height: 200px;
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  margin: 8px;
+  background-color: darkgreen;
+  color: lightgray;
+  border-radius: 28px;
+  border: 2px solid darkgray;
+  box-shadow: 6px 10px 20px rgba( 0, 0, 0.8, 0.8);
 }
 
 .event-tab-2 {
-  min-height: 300px;
-  width: 24%;
-  height: 40%;
-  margin: 40px;
+  min-height: 220px;
+  width: 30%;
+  height: auto;
+  margin: 5px;
+  padding: 10px;
   background-color: navy;
+  color: orange;
+  border: 2px solid darkorange;
+  box-shadow: 6px 10px 20px rgba(0, 0, 0.4, 0.8);
+  border-radius: 28px;
 }
 
 .event-tab-3 {
-  min-height: 300px;
-  width: 24%;
-  height: 40%;
+  min-height: 220px;
+  width: 30%;
+  height: auto;
+  margin: 8px;
+  padding: 0;
+  background-color: rgb(85, 13, 85);
+  color: gold;
+  border: 2px solid gold;
+  box-shadow: 6px 10px 20px rgba(0, 0, 0.2, 1);
+  border-radius: 28px;
+}
+
+.event-item {
+  color: lightgray;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.event-item-2 {
+  color: orange;
   margin: 40px;
-  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.event-item-3 {
+  color: gold;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  font-size: 20px;
+}
+
+.pic-2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0 0 28px 28px;
 }
