@@ -1,0 +1,80 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    height: 100vh;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    font-size: 1.1em;
+    text-align: center;
+    background-color: cyan;
+    color: navy;
+    width: 50%;
+    height: auto;
+    max-width: 400px;
+    max-height: 500px;
+    margin: 15em auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid royalblue;
+    box-shadow: 8px 8px 20px blue;
+}
+
+label {
+    display: block;
+    margin: 5px;
+    font-size: 1.2rem;
+    color: navy;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 8px 1px navy;
+    resize: none;
+    background-color: whitesmoke;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  width: 40%;
+  padding: 12px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 25px; 
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: navy;
+  border: 2px solid navy;
+  width: 42%;
+  height: 18%;
+  box-shadow: 2px 2px 2px blue;
+}
+
+button:focus {
+  outline: none;  
+  border: 4px solid whitesmoke;
+  width: 42%;
+  height: 18%;
+}
+
+button:active {
+  color: blue;
+  background-color: green;  
+}
