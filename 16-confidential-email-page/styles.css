@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#email {
+  display: block;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.6em;
+  margin: 50px auto 0px;
+  padding: 50px;
+  width: 500px;
+  min-width: 500px;
+  height: 580px;
+  min-height: 580px;
+  background-color: lightgray;
+  border: 2px solid darkslategray;
+  box-shadow: 4px 2px 5px darkgray;
+}
+
+#confidential {
+  display: inline-block;
+  text-align: center;
+  width: 260px;
+  height: 40px;
+  padding: 2px auto;
+  margin: 0 0 5px 60px;
+  border: 8px solid red;
+  font-size: 26px;
+  color: red;
+  transform
+}
