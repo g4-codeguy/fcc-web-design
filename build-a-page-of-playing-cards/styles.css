@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   align-self: flex-start;
   align-items: center;
-  font-size: 26px;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -47,7 +47,7 @@ body {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
-  font-size: 26px;
+  font-size: 1.6rem;
   font-weight: bold;
   transform: rotate(180deg);
   align-items: center;
@@ -58,28 +58,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  font-size: 60px;
+  align-items: center;
+  font-size: 3.5rem;
   min-height: 0;
-}
-
-.two {
-  flex-direction: column;
-  align-items: center;
-}
-
-.three {
-  flex-direction: column;
-  align-items: center; 
-}
-
-.four {
-  flex-direction: column;
-  align-items: center;
-}
-
-.five {
-  flex-direction: column;
-  align-items: center;
 }
 
 .rotate {
@@ -87,7 +68,7 @@ body {
 }
 
 .red {
-  color: red;
+  color: #d12d36;
 }
 
 .card:hover {
