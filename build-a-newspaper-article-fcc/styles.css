@@ -1,13 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 24px;
 }
 
 body {
+  display: flex;
+  justify-content: center;
   font-family: "Open Sans", sans-serif;
+  width: 100vw;
+  padding: 200px 20px;
 }
 
 .newspaper {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  width: 60vw;
+  min-height: 50vh;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  background-color: #fffafd;
+  box-shadow: -1px 3px 4px #666;
 }
 
 .name {
@@ -32,6 +50,7 @@ body {
 
 .author {
   font-weight: bold;
+  width: 100%;
 }
 
 .text {
@@ -42,4 +61,5 @@ body {
 .text::first-letter {
   font-size: 2em;
   font-weight: bold;
+  text-shadow: -1px 2px 3px #666;
 }
