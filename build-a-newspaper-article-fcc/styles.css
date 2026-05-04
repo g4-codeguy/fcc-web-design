@@ -16,12 +16,12 @@ body {
 
 .newspaper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  width: 60vw;
+  width: 65vw;
   min-height: 50vh;
-  padding: 20px;
+  padding: 30px;
   border: 1px solid gray;
   border-radius: 12px;
   background-color: #fffafd;
@@ -31,10 +31,21 @@ body {
 .name {
   font-size: 2rem;
   font-family: "Times New Roman", serif;
+  text-shadow: -2px 4px 4px #666;
+}
+
+.date {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #666;
 }
 
 .name, .author {
   text-transform: uppercase;
+}
+
+.name, .date {
+  text-align: center;
 }
 
 .headline {
@@ -50,7 +61,6 @@ body {
 
 .author {
   font-weight: bold;
-  width: 100%;
 }
 
 .text {
