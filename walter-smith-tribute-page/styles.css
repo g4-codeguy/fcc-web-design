@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #1b449c;
+  width: 100%;
+  font-family:
+}
+
+h1 {
+  color: #d4af37;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin: 0;
+}
+
+h2 {
+  color: #d4af37;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin: 20px auto;
+}  
+
+p {
+  color: #d4af37;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+#title {
+  display: block;
+  padding: 60px 0px;
+  margin: 0;
+  width: 100%;
+  background: linear-gradient(360deg, #600000 0%, #bcbcbc 5%, #001244 80%); 
+  border-bottom: 1px solid #d4af37;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: auto;
+  margin: 0 auto;
+}
+
+#image {
+  display: block;
+  border: 1px solid #d4af37;
+  border-top: 0;
+  width: 80%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}  
+
+#img-caption { 
+  display: block;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+#line {
+  border: 1px solid gold;
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#line2 {
+  margin: 5% auto;
+  width: 80%;
+  border: 1px solid gold;
+}
+
+.tribute-info { 
+  font-size: 1.5rem;
+}
+
+.timeline { 
+  color: gold;
+  font-size: 1.5rem;
+}
+
+.memo {
+  display: block;
+  margin: 40px;
+  width: 60%;   
+  height: auto;
+}
+
+#fare {
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  max-width: 70%;
+  width: 55%;
+  height: auto;
+  border: 1px solid gold;
+}
+
+.tribute-link {
+  margin-top: 30px;    
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5;
+}
+
+h3 { 
+  margin-top: 60px;
+  color: red;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem; 
+}
+
+a:hover {
+  color: white;
+}
+
+#title p { 
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#famp {
+  margin-top: 20px;
+}
