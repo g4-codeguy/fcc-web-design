@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+#house {
+  position: relative;
+  top: 25vh;
+  width: 500px;
+  height: 400px;
+  background-color: #1b449c;
+  border: 2px solid #f47920;
+}
+
+#chimney {
+  position: absolute;
+  top: -20%;
+  left: 60%;
+  z-index: -1;
+  width: 20%;
+  height: 40%;
+  border: 2px solid #000;
+  background-image: repeating-linear-gradient(180deg, transparent 1%, transparent 4%, transparent 4%, #f47920 6%);
+  background-color: #1b449c;
+}
+
+#roof {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30%;
+  border: 2px solid #1b449c;
+  background-color: #1b449c;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 4%, #f47920 4%, #f47920 5%),
+  repeating-linear-gradient(-45deg, transparent, transparent 4%, #f47920 4%, #f47920 5%);
+}
+
+#window-1 {
+  position: absolute;
+  border: 4px solid #000;
+  top: 45%;
+  left: 10%;
+  width: 20%;
+  height: 26%;
+  background-color: #f47920;
+  background-image: linear-gradient(45deg, #f87920 20%, #f6a120 
+   40%, #f48820 60%);
+}
+
+#window-2 {
+  position: absolute;
+  border: 4px solid #000;
+  top: 45%;
+  right: 10%;
+  width: 20%;
+  height: 26%;
+  background-color: #f47920;
+  background-image: linear-gradient(45deg, #f87920 20%, #f6a120 
+   40%, #f48820 60%);
+}
+
+#door {
+  position: absolute;
+  width: 26%;
+  height: 40%;
+  background-color: #f47920;
+  border: 4px solid #000;
+  top: auto;
+  left: 30%;
+  right: 30%;
+  bottom: 0;
+  margin: auto;
+}
+
+#handle {
+  position: absolute;
+  top: 50%;
+  bottom: 10%;
+  left: 80%;
+  right: 10%;
+  width: 12%;
+  height: 12%;
+  background-color: #1b449c;
+  border-radius: 100%;
+}
+
+#doormat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 24%;
+  height: 16%;
+  border: 2px solid #000;
+  background-color: #f47920;
+  color: #1b449c;
+  font-size: 20px;
+  font-weight: bold;
+  top: 108%;
+  right: 4%;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  transform: skew(-20deg);
+  border-radius: 5%;
+}
+
+#smoke {
+  position: absolute;
+  top: auto;
+  bottom: 100%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background-image: linear-gradient(180deg, transparent 20%, #444 20%, transparent 20%, #666 90%);
+  border-bottom-left-radius: 36%;
+  border-bottom-right-radius: 36%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: -40%;
+}
