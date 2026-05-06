@@ -22,6 +22,9 @@ This repository contains my progress through the **freeCodeCamp Responsive Web D
 * **[14 - Game Settings Page](./14-game-settings-page/)** - Creating a settings page UI for a game.
 * **[Feature Selection Page](./feature-selection-page/)** - Designing a feature selection interface.
 
+* [Walter Smith Tribute Page](https://g4-codeguy.github.io/fcc-web-design/walter-smith-tribute-page/)
+
+
 ## 🛠️ Tools Used
 * **freeCodeCamp Editor** - For coding the lessons.
 * **Samsung DeX using S23U on tv monitor** - My mobile desktop setup for development.
