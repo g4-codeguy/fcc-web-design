@@ -51,8 +51,8 @@ tr[class="to-read"] span[class="status"] {
   font-size: 1.2em;
   font-weight: bold;
   box-shadow: 1px 2px 3px #222222;
-  background-image: linear-gradient(90deg, #ff2828 25%, #ffd2dd 50%, #ff2828 75%);
-  color: #2f2fff;
+  background-image: linear-gradient(90deg, #d1c40f 25%, #ff6a8f 50%, #d1c40f 75%);
+  color: #2a2ae2;
 }
 
  span[class^="rate"] > span {
@@ -72,8 +72,7 @@ tr[class="read"] span[class="status"] {
   border-radius: 12px;
   text-align: center;
   box-shadow: 1px 3px 4px #4c4cb2;
-  background-image: linear-gradient(90deg, #d6e6ff 25%, #8ec5fc 50%, #d2b2ff 75%);
+  background-image: linear-gradient(90deg, #d6e6ff 25%, #8fb8b8 50%, #d2b2ff 75%);
   font-size: 1.2em;
   font-weight: 500;
-  color: #fefed2;
-}
+  color: #2a2ae2;
