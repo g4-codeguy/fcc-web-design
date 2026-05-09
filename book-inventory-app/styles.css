@@ -3,6 +3,7 @@
 }
 
 body {
+  width: 100vw;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -15,13 +16,13 @@ body {
 }
 
 #container {
+  min-width: 400px;
   margin: 40px auto;
   border: none;
   padding: 5px 10px;
   box-shadow: 4px 4px 12px 1px #8d8dff;
   border-radius: 8px;
-  background-color: #a4a4bf;
-  
+  background-color: #8f8fbf;
 }
 
 h1 {
@@ -95,8 +96,8 @@ tr[class="to-read"] span[class="status"] {
   box-shadow: 2px 2px 8px #0a0a0a;
   margin: 3px;
   padding: 0.025em;
-  width: 1.2em;
-  min-height: 1.2em;
+  width: 1em;
+  height: 1em;
   background-color: #dfdfdf;
 }
 
