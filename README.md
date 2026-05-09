@@ -21,7 +21,7 @@ This repository contains my progress through the **freeCodeCamp Responsive Web D
 * **[13 - Contact Form](./13-contact-form-fcc/)** - Building a contact form with multiple input types.
 * **[14 - Game Settings Page](./14-game-settings-page/)** - Creating a settings page UI for a game.
 * **[Feature Selection Page](./feature-selection-page/)** - Designing a feature selection interface.
-
+* **[Book-Inventory-App](https://g4-codeguy.github.io/fcc-web-design/book-inventory-app/)**
 * [Walter Smith Tribute Page](https://g4-codeguy.github.io/fcc-web-design/walter-smith-tribute-page/)
 
 
