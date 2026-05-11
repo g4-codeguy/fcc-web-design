@@ -39,6 +39,7 @@ body {
   gap: 16px;
   box-shadow: 3px 3px 8px 1px #6b6b6c;
   border-radius: 5px;
+  z-index: 999;
 }
 
 #navbar header {
@@ -71,15 +72,26 @@ body {
 }
 
 .main-section {
+  position: relative;
   width: 100%;
-  margin: 10px auto;
-  padding: 0 0 10px 8px;
+  margin: 8px auto;
+  padding: 8px;
   font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: 0.02rem;
   line-height: 1.4rem;
   color: #0a0a0a;
-  border-bottom: 1px solid #4b4b5c;
+}
+
+.main-section::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 1px;
+  background-color: #4b4b5c;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #navbar .nav-link:focus {
