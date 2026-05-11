@@ -4,11 +4,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Intro to JavaScript technical documentation page</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
+    <nav id="navbar">
+      <header>
+        <h2>JS Documentation</h2>
+      </header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+      <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+      <a class="nav-link" href="#Hello_World">Hello World</a>
+      <a class="nav-link" href="#Variables">Variables</a>
+      <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
     <main id="main-doc">
-      <section class="main-section" id="Intro">
+      <section class="main-section" id="Introduction">
         <header>
           <h2>Introduction</h2>
         </header>  
@@ -19,7 +32,7 @@
             <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
           </ul> 
       </section>
-      <section class="main-section" id="what_you_know">
+      <section class="main-section" id="What_you_should_already_know">
         <header>
           <h2>What you should already know</h2>
         </header>  
@@ -38,18 +51,18 @@
             <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
             <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>  
       </section>
-      <section class="main-section" id="hello_world">
+      <section class="main-section" id="Hello_World">
         <header>
-          <h2>"Hello World"</h2>
+          <h2>Hello World</h2>
         </header>  
             <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>  
-          <div id="snippet">
+          <div class="snippet">
             <code>function greetMe(yourname) { alert="hello " + (yourName); }
               greetMe("world");</code>
           </div>
             <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>  
       </section>
-      <section class="main-section" id="variables">
+      <section class="main-section" id="Variables">
         <header>
           <h2>Variables</h2>
         </header>
@@ -57,13 +70,36 @@
           <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
           <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
       </section>
-    </main>
-    <section class="footer-section" id="reference">
-      <footer>
+      <section class="main-section" id="Declaring_Variables">
+        <header>
+          <h2>Declaring Variables</h2>
+        </header> 
+          <p>You can declare a variable in three ways:</p>
+          <p>With the keyword var. For example,</p>
+        <div class="snippet">
+          <code>var x = 42.</code>
+          <code>var x = 32.</code>
+        </div>
+         <p>This syntax can be used to declare both local and global variables.</p>
+          <p>By simply assigning it a value. For example,</p>
+        <div class="snippet">
+          <code>x = 42.</code>
+        </div>
+          <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
+          <p>With the keyword let. For example,</p>
+        <div class="snippet">
+          <code>let y = 13.</code>
+        </div>
+          <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
+    </section>
+    <section class="main-section" id="Reference">
+        <header>
         <h2>Reference</h2>
+        </header>
         <ul>
-          <li>All the documentation in this page is taken from<a>MDN</a></li>
-        </ul>  
-      </footer>
+          <li>All the documentation in this page is taken from <a>MDN</a></li>
+        </ul>
+    </section>
+    </main>    
   </body>
 </html> 
