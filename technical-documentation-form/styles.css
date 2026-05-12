@@ -26,6 +26,17 @@ body {
   border-radius: 5px;
 }
 
+.snippet {
+  width: 70%;
+  height: auto;
+  padding: 2px auto;
+  margin: 0 0 0 30px;
+  border: 1px solid #4b4b5c;
+  border-radius: 12px;
+  background-color: #dcdcdc;
+  text-align: center;
+}
+
 #navbar {
   display: flex;
   flex-direction: column;
