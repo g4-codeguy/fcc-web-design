@@ -25,6 +25,34 @@ table {
   border: var(--solid-border);
 }
 
+tr th, td {
+  padding: 5px;
+}
+
+tr:nth-of-type(odd) td {
+  border-bottom: var(--dashed-border);
+}
+
+tr:nth-of-type(even) td {
+  border-bottom: var(--solid-border);
+  border-right: var(--dashed-border);
+}
+
+tr:nth-of-type(odd) td {
+  border-bottom: var(--dashed-border);
+  border-right: var(--solid-border);
+}
+
+tr:nth-of-type(odd) th {
+  border-bottom: var(--dashed-border);
+  border-right: var(--solid-border);
+}
+
+tr:nth-of-type(even) th {
+  border-bottom: var(--dashed-border);
+  border-right: var(--solid-border);
+}
+
 .available-0 {
   background-color: var(--color0);
 }
