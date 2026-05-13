@@ -1,0 +1,44 @@
+:root {
+  --color0: #fafffa;
+  --color1: #cfffcf;
+  --color2: #66df66;
+  --color3: #00bf00;
+  --color4: #009f00;
+  --color5: #006f00;
+  --solid-border: 1px solid #2f2f2f;
+  --dashed-border: 1px dashed #2f2f2f;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+.available-0 {
+  background-color: var(--color0);
+}
+
+.available-1 {
+  background-color: var(--color1);
+}
+
+.available-2 {
+  background-color: var(--color2);
+}
+
+.available-3 {
+  background-color: var(--color3);
+}
+
+.available-4 {
+  background-color: var(--color4);
+}
+
+.available-5 {
+  background-color: var(--color5);
+}
+
+.row-bottom {
+  border: var(--solid-border);
+}
