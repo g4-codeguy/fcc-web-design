@@ -4,7 +4,7 @@
   --color2: #66df66;
   --color3: #00bf00;
   --color4: #009f00;
-  --color5: #006f00;
+  --color5: #007a00;
   --solid-border: 1px solid #2f2f2f;
   --dashed-border: 1px dashed #2f2f2f;
 }
@@ -13,6 +13,16 @@ body {
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+
+table {
+  border-collapse: collapse;
+  border: var(--solid-border);
 }
 
 .available-0 {
@@ -33,12 +43,4 @@ body {
 
 .available-4 {
   background-color: var(--color4);
-}
-
-.available-5 {
-  background-color: var(--color5);
-}
-
-.row-bottom {
-  border: var(--solid-border);
 }
